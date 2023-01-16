@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="KO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout04</title>
+    <style>
+      @font-face {
+        font-family: montserrat;
+        src: url(font/Montserrat-Medium.woff) format("woff");
+      }
+
+      body {
+        font-family: montserrat;
+
+        background: #ffe0b2;
+      }
+
+      #wrap {
+        width: 1000px;
+        height: 900px;
+
+        margin: 0 auto;
+
+        color: #fff;
+
+        font-size: 30px;
+
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .header {
+        width: 1000px;
+        height: 100px;
+
+        line-height: 100px;
+
+        background: #ef6c00;
+      }
+
+      .nav {
+        width: 1000px;
+        height: 100px;
+
+        line-height: 100px;
+
+        background: #f57c00;
+      }
+
+      .side {
+        float: left;
+        /* float은 블록요소 */
+
+        width: 300px;
+        height: 600px;
+
+        line-height: 600px;
+
+        background: #fb8c00;
+      }
+
+      .content1 {
+        float: left;
+        /* float은 블록요소 */
+
+        width: 700px;
+        height: 300px;
+
+        line-height: 300px;
+
+        background: #ff9800;
+      }
+
+      .content2 {
+        float: left;
+        /* float은 블록요소 */
+
+        width: 700px;
+        height: 300px;
+
+        line-height: 300px;
+
+        background: #ffa726;
+      }
+
+      .footer {
+        clear: both;
+
+        width: 1000px;
+        height: 100px;
+
+        line-height: 100px;
+
+        background: #ffb74d;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="header">header</div>
+      <div class="nav">nav</div>
+      <div class="side">side</div>
+      <div class="content1">content1</div>
+      <div class="content2">content2</div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
